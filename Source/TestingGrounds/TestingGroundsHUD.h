@@ -15,7 +15,8 @@ public:
 	ATestingGroundsHUD();
 
 	/** Primary draw call for the HUD */
-	virtual void DrawHUD() override;
+	
+ void DrawHUD() override;
 
 private:
 	/** Crosshair asset pointer */
